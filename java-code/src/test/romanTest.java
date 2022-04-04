@@ -53,6 +53,16 @@ public class romanTest {
 
     @Test
     public void test102() throws Exception{
-        assertEquals("CII", Roman.toRoman(102));
+        assertEquals("CII", Roman.toRoman(102)); //true
+    }
+
+    @Test
+    public void test0() throws Exception{
+        assertEquals("Chiffre égal à 0", Roman.toRoman(0)) //true
+    }
+
+    @Test
+    public void testNegative() throws Exception{
+        assertEquals("Chiffre inférieur à 0", Roman.toRoman(-3)) //true 
     }
 } 

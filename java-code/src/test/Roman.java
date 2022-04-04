@@ -21,13 +21,19 @@ public class Roman {
         map.put(1, "I");
     }
 
-
     public static String toRoman(int param) {
-        int greatestNumber = map.floorKey(param);
-        if (param == greatestNumber) {
-            return map.get(param);
+        if(param == 0){
+            return "Chiffre égal à 0"
+        }else if (param < 0){
+            return "Chiffre inférieur à 0"
+        }else{
+            int greatestNumber = map.floorKey(param);
+            if (param == greatestNumber) {
+                return map.get(param);
+            }
+            return map.get(greatestNumber) + toRoman(param - greatestNumber); //Permet de faire boucler la fonction et de concaténer les résultats
+
         }
-        return map.get(greatestNumber) + toRoman(param - greatestNumber); //Permet de faire boucler la fonction et de concaténer les résultats
     }
 
 }
