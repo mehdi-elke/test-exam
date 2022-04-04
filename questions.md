@@ -40,6 +40,8 @@ Un outil comme sonar permet d'améliorer la qualité du produit, parce qu'il rec
 
 ## 4) Expliquez la règle du “boy-scout”.
 
+La régle du "boy scoutt" peut se résumer par l'expression suivante : l'amélioration continue du code. En effet, cette règle dit qu'il faut toujours laisser le code dans un état meilleur que celui dans lequel on l' a trouvé. Il peut s'agir de seulement changer le nom d'une variable, ou changer un if. L'important est seulement qu'aprés votre rewiew du code, celui soit meilleur. 
+
 ## 5) Définissez ce qu’est la qualité dans un projet informatique.
 
 ## 6) Ecrivez les scénarios en gherkin permettant de valider la fonction suivante:
