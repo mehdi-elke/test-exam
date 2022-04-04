@@ -22,17 +22,21 @@ Thorough ( Approfondi en Francais ) : Les tests doivent s'appliquer à des résu
 
 La pyramide des tests se divise en 4 niveaux. Du plus haut au plus bas cela donne : Tests d'acceptation, tests système, tests d'intégration, tests de composants. 
 
-Son objectif est 
+Son objectif est de couvrir au maximum le progamme aux niveaux tests, pour assurer une qualités logicielle maximale. 
 
 Tests Composants : Ils pour but de vérifier les différents composants du programme / logiciel séparément afin de s’assurer que chaque élément fonctionne comme demandé
 
-Tests d'intégration : 
+Tests d'intégration : En 3éme position dans la pyramide, ils ont pour rôle de s'assurer du bon fonctionnement des interactions et de l’interface entre les différents composants.
 
-Tests système : En 2éme position dans la pyramide, leur but est de vérifier que le système (le logiciel ou l’application dans son ensemble) répond aux exigences définies dans les spécifications.
+Tests système : En 2éme position dans la pyramide, leur but est de vérifier que le logiciel dans son ensemble répond aux exigences définies dans les spécifications.
 
 Tests d'acceptation : Tout en haut de la pyramide, ce sont les derniers tests. Ils ont pour objectif de confirmer que le produit final correspond bien aux besoins des utilisateurs. 
 
 ## 3) Définissez l’analyse statique du code, et comment un outil comme sonar permet d’améliorer la qualité de votre produit ?
+
+L'analyse statique du code consiste en une suite de contrôles qui sont automatisés et qui s'effectue sur le code source du prommage ou du logiciel. C'est pour cela que l'analyse statique du code garantit la cohérence des contrôles et fournit généralement feedback rapide sur  modifications les plus récentes. 
+
+Un outil comme sonar permet d'améliorer la qualité du produit, parce qu'il recherche des erreurs et de vulnérabilités connues, telles que les fuites de mémoire ou les débordements de mémoire tampon. Un logiciels permet d'ailleurs de mettre en évidence les morceaux de codes qui ne respectent pas les normes de codages; ce qui permet bien sûr de l'améliorer par la suite.
 
 ## 4) Expliquez la règle du “boy-scout”.
 
