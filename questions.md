@@ -44,6 +44,8 @@ La régle du "boy scoutt" peut se résumer par l'expression suivante : l'amélio
 
 ## 5) Définissez ce qu’est la qualité dans un projet informatique.
 
+La qualité est la conformité par rapport aux attentes définies pour le projet au départ. Ces attentes portent sur les objectifs à atteindre, mais aussi sur la manière de formuler les objectifs et la manière de mener à bien l'objectif. 
+
 ## 6) Ecrivez les scénarios en gherkin permettant de valider la fonction suivante:
 La fonction prend en paramètre une valeur numérique et :
 * Si la valeur est un multiple de 3, alors la fonction retourne fizz
