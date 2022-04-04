@@ -2,6 +2,13 @@
 
 
 ## 1) Définissez ce qu’est un test unitaire, son intérêt, ce qu’il doit contenir et comment évaluer sa qualité.
+Un test unitaire est un processus qui consiste à isoler une partie de code d'un programme ou d'un logiciel pour vérifier son bon fonctionnement. 
+
+On dit souvent qu'un test unitaire doit contenir l'acronyme FIRST.
+
+Fast :  Un test unitaire doit s'effectuer le plus rapidement possible. Généralement il doit ss'executer en quelques centiémes ou milliémes de secondes pour être joué le plus souvent possible par les développeurs.
+
+Independant : 
 
 ## 2) Présentez la pyramide des tests, ses différents niveaux et son objectif.
 
