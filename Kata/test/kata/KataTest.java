@@ -31,10 +31,13 @@ public class KataTest {
      * Test of toRoman method, of class Kata.
      */
     @Test
-    public void testToRoman() {
+    public void test50() throws Exception {
         // Retourne true
         assertEquals("L", Kata.toRoman(50));
-        
+    }   
+    @Test
+    public void test500() throws Exception {
+        // Retourne true
+        assertEquals("D", Kata.toRoman(500));
     }
-    
 }

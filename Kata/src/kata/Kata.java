@@ -35,12 +35,19 @@ public class Kata {
         
     }
     **/
-    public final static String toRoman(int number) {
-        int l =  map.floorKey(number);
-        if ( number == l ) {
-            return map.get(number);
+    public static String toRoman(int nb) {
+        if(nb == 0){
+            return "Chiffre égal à 0";
+        }else if (nb < 0){
+            return "Chiffre inférieur à 0";
+        }else{
+            int greatestNumber = map.floorKey(nb);
+            if (nb == greatestNumber) {
+                return map.get(nb);
+            }
+            return map.get(greatestNumber) + toRoman(nb - greatestNumber);
+
         }
-        return map.get(l) + toRoman(number-l);
     }
     
     
