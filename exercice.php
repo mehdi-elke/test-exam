@@ -1,5 +1,6 @@
 
 <?php
+class ConvertToromain{ 
 
 function convert($int)
 {
@@ -13,4 +14,7 @@ function convert($int)
       
       return $romain;
     
+}
+
+
 }
