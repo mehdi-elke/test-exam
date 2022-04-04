@@ -35,7 +35,7 @@ class kata_roman_to_numeral extends \PHPUnit\Framework\TestCase {
         $this->assertEquals('II', intToRomanString(2));
     }
 
-    public function test692IsConvertedInDCXCII() // Tester les chiffres avec 2, 90
+    public function test692IsConvertedInDCXCII() // Tester les chiffres avec 2, 90, 100
     {
         $this->assertEquals('D' . 'C' . 'XC' . 'II', intToRomanString(692));
     }
@@ -50,8 +50,13 @@ class kata_roman_to_numeral extends \PHPUnit\Framework\TestCase {
         $this->assertEquals('CD' . 'XXX' . 'I', intToRomanString(431));
     }
 
-    public function test1999IsConvertedInMCMXCIX() // Tester les chiffres avec 900, avec 90, avec 9
+    public function test1999IsConvertedInMCMXCIX() // Tester les chiffres avec 1000, 900, avec 90, avec 9
     {
         $this->assertEquals('M' . 'CM' . 'XC' . 'IX', intToRomanString(1999));
+    }
+
+    public function test1449IsConvertedInMCDXLIX() // Tester les chiffres avec 1000, 900, avec 90, avec 9
+    {
+        $this->assertEquals('M' . 'CD' . 'XL' . 'IX', intToRomanString(1449));
     }
 }
