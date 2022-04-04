@@ -39,10 +39,19 @@ La fonction prend en paramètre une valeur numérique et :
 * Si la valeur est un multiple de 3 et de 5, alors la fonction retourne fizzbuzz
 * La valeur d’entrée dans les autres cas.
 
-1) Alors Fizz
 
-2) Alors Buzz
+Etant donné que l'utilisateur rentre un chiffre
+Quand la valeur est un multiple de 3
+Alors Fizz
 
-3) Alors FizzBuzz
+Etant donné que l'utilisateur rentre un chiffre
+Quand la valeur est un multiple de 5
+Alors Buzz
 
-4) Alors Valeur d'entrée
+Etant donné que l'utilisateur rentre un chiffre
+Quand la valeur est un multiple de 3 et de 5
+Alors FizzBuzz
+
+Etant donné que l'utilisateur rentre un chiffre
+Quand la valeur n'est ni un multiple de 3 ni de 5
+Alors Valeur d'entrée
