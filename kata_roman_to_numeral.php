@@ -24,4 +24,10 @@ function intToRomanString($number)
     return $res;
 }
 
-print_r(intToRomanString(2457));
+class kata_roman_to_numeral extends \PHPUnit\Framework\TestCase {
+    public function testNumbersFrom1To3AreConvertedWithIs()
+    {
+        $this->assertEquals('I', intToRomanString(1));
+        $this->assertEquals('II', intToRomanString(2));
+    }
+}
