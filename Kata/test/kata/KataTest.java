@@ -46,6 +46,11 @@ public class KataTest {
         assertEquals("IX", Kata.toRoman(9));
     }
     @Test
+    public void test15() throws Exception{
+        // Retourne true
+        assertEquals("XV", Kata.toRoman(15));
+    }
+    @Test
     public void test102() throws Exception{
         // Retourne true
         assertEquals("CII", Kata.toRoman(102));
