@@ -21,5 +21,10 @@ function intToRomanString($number){
     }
     return $res;
 }
-
-print_r(intToRomanString(23));
+class TestIntToRoman extends \PHPUnit\Framework\TestCase {
+    public function testNumbersFrom1To3AreConvertedWithIs()
+    {
+        $this->assertEquals('I', intToRomanString(1));
+        $this->assertEquals('II', intToRomanString(2));
+    }
+}
