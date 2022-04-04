@@ -21,10 +21,7 @@ function toRoman($number)
     return $result;
 }
 
-$number = 1948;
-var_dump($number." : ".toRoman($number));
-$number -= 432;
-var_dump($number." : ".toRoman($number));
+
 
 class RomanNumberTest extends TestCase
 {
