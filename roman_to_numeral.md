@@ -6,19 +6,6 @@ This kata can be used in order to demonstrate how to implement TDD with a simple
 
 Write a method String convert(int) that takes a number and converts it to the according String representation.
 
-function convert($int)
-{
-    
-        if ($int == 0) {
-            return '';
-        }
-        $symbols = array(1 => I);
-
-        $romain = '';
-      
-      return $romain;
-    
-}
 
 ## Examples
    1 ➔ I
