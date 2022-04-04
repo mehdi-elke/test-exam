@@ -52,3 +52,16 @@ La fonction prend en paramètre une valeur numérique et :
 * Si la valeur est un multiple de 5, alors la fonction retourne buzz
 * Si la valeur est un multiple de 3 et de 5, alors la fonction retourne fizzbuzz
 * La valeur d’entrée dans les autres cas.
+
+
+function fizzBuzz(number) {
+  if (number % 3 === 0 && number % 5 === 0) {
+    return "Fizz Buzz";
+  } else if (number % 3 === 0) {
+    return "Fizz";
+  } else if (number % 5 === 0) {
+    return "Buzz";
+  } else {
+    return number;
+  }
+}
