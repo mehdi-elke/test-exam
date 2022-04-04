@@ -3,8 +3,8 @@
 
 ## 1) Définissez ce qu’est un test unitaire, son intérêt, ce qu’il doit contenir et comment évaluer sa qualité.
 
-Un test unitaire est un test executé afin de s'assurer que le logiciel réagisse comme il faut par rapport au code écrit, qu'il 
-obtienne les bonnes réponses venant d'APIs, 
+Un test unitaire est un test executé afin de s'assurer que le logiciel soit stable et robuste afin qu'il réagisse comme il faut par rapport au code écrit, qu'il 
+obtienne les bonnes réponses venant d'APIs, qu'il fasse les bons traitements et les bonnes vérifications. 
 
 ## 2) Présentez la pyramide des tests, ses différents niveaux et son objectif.
 
