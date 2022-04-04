@@ -50,4 +50,9 @@ public class KataTest {
         // Retourne true
         assertEquals("CII", Kata.toRoman(102));
     }
+    @Test
+    public void test0() throws Exception{
+        // Retourne true
+        assertEquals("Chiffre égal à 0", Kata.toRoman(0));
+    }
 }
