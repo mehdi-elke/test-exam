@@ -20,6 +20,18 @@ Thorough ( Approfondi en Francais ) : Les tests doivent s'appliquer à des résu
 
 ## 2) Présentez la pyramide des tests, ses différents niveaux et son objectif.
 
+La pyramide des tests se divise en 4 niveaux. Du plus haut au plus bas cela donne : Tests d'acceptation, tests système, tests d'intégration, tests de composants. 
+
+Son objectif est 
+
+Tests Composants : Ils pour but de vérifier les différents composants du programme / logiciel séparément afin de s’assurer que chaque élément fonctionne comme demandé
+
+Tests d'intégration : 
+
+Tests système : En 2éme position dans la pyramide, leur but est de vérifier que le système (le logiciel ou l’application dans son ensemble) répond aux exigences définies dans les spécifications.
+
+Tests d'acceptation : Tout en haut de la pyramide, ce sont les derniers tests. Ils ont pour objectif de confirmer que le produit final correspond bien aux besoins des utilisateurs. 
+
 ## 3) Définissez l’analyse statique du code, et comment un outil comme sonar permet d’améliorer la qualité de votre produit ?
 
 ## 4) Expliquez la règle du “boy-scout”.
